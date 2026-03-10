@@ -2,9 +2,9 @@
 ---
 
 Tasks:
--
--
--
+- Add EFCore dependecies.
+- Create DataContext
+- Create ToDo Entities
 -
 
 
