@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Project Path="ToDoApp.Domain/ToDoApp.Domain.csproj" Id="b9c0d637-7896-4622-a41b-3a29072f5849" />
+  <Project Path="ToDoApp.Repos/ToDoApp.Repos.csproj" Id="8f2479a3-0baa-497c-a265-5d3a0f65faa7" />
+  <Project Path="ToDoApp.UI/ToDoApp.UI.csproj" Id="dd9b73bc-e4e9-413b-ae22-933576d49f53" />
+</Solution>
