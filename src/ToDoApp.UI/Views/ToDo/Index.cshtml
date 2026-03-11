@@ -1,0 +1,21 @@
+﻿@using ToDoApp.Domain.Entities
+@model IEnumerable<ToDoItem>
+
+<h1> My Tasks</h1>
+<hr />
+@if(Model.Any())
+{
+    <ol>
+    @foreach(var item in Model)
+    {
+        <li><strong>@item.Name</strong> 
+            <a href="/todo/edit/@item.Id" class="btn btn-sm btn-primary">Edit</a>
+        </li>
+    }
+    </ol>
+} 
+else
+{
+    <div class="alert alert-danger">Завдання відсутні у списку.</div>
+}
+
